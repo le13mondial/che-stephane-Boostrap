@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    font-weight: 600;
+}
+
+.offcanvas-title span{
+    color: yellow;
+}
+
+nav{
+    justify-content: space-around;
+    position: absolute;
+}
+nav ul li{
+    list-style: none;
+    padding:10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+   
+}
+
+.off-icon{
+  display: none;
+
+}
+
+@media screen and (max-width:550px) {
+    .off-icon{
+        display: block;
+        float: right;
+        
+      }
+    .navbar-toggler{
+        display: none;
+    }  
+
+    .navbar-brand{
+        position: absolute;
+    }
+}
+
+
+.navbar-brand span{
+    color: yellow;
+}
+.carousel-item img{
+    /* height: 32rem; */
+    filter: brightness(50%);
+    
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    color: white;
+   
+}
+
+.card-1{
+    border: none;
+}
+
+.s-card-body{
+    color: white;
+}
+
+.s-card-body p{
+   text-align: justify;
+   padding: 10px;
+}
+
+.card-shadow:hover{
+    box-shadow: 6px 6px 9px rgb(179, 165, 165);
+}
+
+
+.card-radius img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    /* left: 10%; */
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+
+.card-radius{
+    box-shadow: 6px 6px 9px rgb(179, 165, 165);
+}
+.card-radius span{
+    padding: 10px;
+}
+
+.card-radius p{
+    text-align: justify;
+}
